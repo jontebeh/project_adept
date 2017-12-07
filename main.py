@@ -39,7 +39,6 @@ def commands(usr_input, log_state, konto_now):
     if usr_input == "new konto":
         create_konto()
         
-        *Du stinkst!
     elif usr_input == "login":
         if log_state == True:
             print("Du bist bereits eingelogt")
@@ -79,5 +78,7 @@ def main():
         commands(usr_command, var.log_state, var.konto_now)
         
 main()
+
+print("bye")
         
-    *du stinkst
+
