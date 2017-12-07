@@ -79,6 +79,4 @@ def main():
         
 main()
 
-print("bye")
-        
 
